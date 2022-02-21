@@ -7,4 +7,4 @@ housefly = I.Insect(3, 6)
 mosquito.flight_length()
 housefly.flight_length()
 
-print(mosquito.flight_length(), "miles")
+print(mosquito.get_miles, "miles")
