@@ -1,3 +1,6 @@
+from typing_extensions import Self
+
+
 class CellPhone:
     def __init__(self, manufact, model, retail_price):
         self.manufacr = manufact
@@ -21,3 +24,6 @@ class CellPhone:
 
     def get_retail_price(self):
         return self.__retail_price
+
+    def __str__(Self):
+        return self.__model
