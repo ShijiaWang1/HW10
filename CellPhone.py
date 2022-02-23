@@ -1,3 +1,4 @@
+from concurrent.futures.process import _python_exit
 from pyexpat import model
 from tracemalloc import start
 import CellPhoneClass as cp
@@ -18,6 +19,8 @@ def main():
     print("The mmodel is ", cellphone.get_model())
 
     print("The retail price is ", cellphone.get_retail_price())
+
+    print(cellphone)
 
 
 main()
